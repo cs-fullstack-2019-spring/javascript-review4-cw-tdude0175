@@ -71,4 +71,4 @@ BONUS:
 
 Write a function that writes in the console the multiplication table (from 1 to 10). Hint: use ``` "\n" ``` to insert a newline.
 
-![multiplication](img/multiplication-table.png)
+![multiplication](multiplication.png)
