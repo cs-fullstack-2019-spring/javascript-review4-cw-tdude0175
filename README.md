@@ -65,7 +65,7 @@ Assign a number for the ```age``` for all of the pets
 
 Iterate the list of pets and print the properties for each pet
 
-BONUS:
+## BONUS:
 
 ### Multiplications table
 
