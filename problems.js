@@ -22,6 +22,7 @@ use toUppercase()to target item in the array
 .map to return values
 .reduce to put it back together
 you can do it ALLLL TOGETHER
+check out .join
  */
 
 
@@ -53,6 +54,10 @@ function problem1()
 // , and returns the word in the opposite case.
 // Hint: see toLowercase()
 
+/*
+simple problem from the first problem
+ */
+
 
 function problem2()
 {
@@ -70,6 +75,9 @@ function problem2()
 
 //Write a JavaScript function to get the first n element(s) of an array.
 // Passing a parameter 'n' will return the first 'n' elements of the array.
+//
+// Write a JavaScript function to get the last n element(s) of an array.
+// Passing a parameter 'n' will return the last 'n' elements of the array.
 
 /*
 slice to look at but not remove
@@ -82,9 +90,22 @@ splice to take out
 function problem3()
 {
     let meats = ["beef","pork","lamb","deer","chicken",];
+    function lookingForDeals()
+    {
+     let checkingout =parseInt(prompt("which isles do you want to check?"));
+     console.log(checkingout);
+     let itemsOnSale = meats.slice(0,checkingout);
+     console.log(itemsOnSale);
+    }
+    lookingForDeals();
+    function leavingTheStore()
+    {
+        let lastIsle = parseInt(prompt("which isle do you want to check out before we go?"));
+        console.log(meats.slice(lastIsle-1,4));
 
-     let checkingout =parseInt(prompt("which isle do you want to check?"));
-     let endingisle = parseInt(prompt("which isle are you going to?"));
-     console.log(checkingout + endingisle);
+    }
+    leavingTheStore();
+
+
 
 }
