@@ -5,12 +5,12 @@ Put the start of your program in a main function in your JavaScript file. It's O
 //////////////////////////////////////////////////////////////////////////////////////////
 
 ### Problem 1:
-Write a JavaScript function that accepts a sentence of words all in lowercase, and returns every other word in all caps.  
+Write a JavaScript function that accepts a sentence of words all in lowercase, and returns every other word in all caps. Hint: see toUppercase() 
 
 ex. ```in a galaxy far far away``` -> ```in A galaxy FAR far AWAY```
 
 ### Problem 2:
-Write a JavaScript function that accepts a word in all lowercase or in all uppercase, and returns the word in the opposite case.
+Write a JavaScript function that accepts a word in all lowercase or in all uppercase, and returns the word in the opposite case. Hint: see toLowercase()
 
 ex. ```hello``` -> ```HELLO``` or ```HOWDY``` -> ```howdy```
 
@@ -18,7 +18,7 @@ ex. ```hello``` -> ```HELLO``` or ```HOWDY``` -> ```howdy```
 
 #### Return first n number of elemnts
 
-Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
+Write a JavaScript function to get the first n element(s) of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
 
 ex: 
 ```
