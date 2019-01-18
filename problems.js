@@ -4,7 +4,8 @@ function main()
 {
     // problem1();
     // problem2();
-    problem3();
+    // problem3();
+    problem4();
 }
 
 
@@ -108,4 +109,40 @@ function problem3()
 
 
 
+}
+
+//Write a JavaScript function to remove an element with a specific value from an array.
+
+/*
+function can be problem 4
+switch case to test which item person wants
+pop to set object somewhere else
+NEED TO PUT NAME INTO OBJECT TO DISTINGUISH WHAT IT IS OTHERWISE YOU WON'T BE ABLE TO TELL
+ */
+
+
+function problem4()
+{
+    let books = [bible = {pagecount:1000,covertype:"hard",rating:9},
+                 whereTheWildThingsAre ={pagecount: 15, covertype: "paper", rating: 4},
+                 blackCompany ={pagecount:300,covertype:"hard",rating:7},];
+    switch(prompt("what book do you want to check out?"))
+    {
+        case"bible" :
+            console.log("we have that in stock here you are.");
+            var rental = books.pop(bible);
+            break;
+        case"where the wild things are" :
+            console.log("we have that in stock here you are.");
+            var rental =books.pop(whereTheWildThingsAre);
+            break;
+        case"black company" :
+            console.log("we have that in stock here you are.");
+            var rental =books.pop(blackCompany);
+            break;
+        default:
+            console.log("we do not have that in stock.");
+            break;
+    }
+    console.log(rental);
 }
